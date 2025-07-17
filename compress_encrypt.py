@@ -50,8 +50,6 @@ if __name__ == "__main__":
     # RSA encryption
     public_key, private_key = generate_keys()
     encrypted_data = encrypt_data(compressed_bytes, public_key)
-
     # Save to file
     save_to_file(encrypted_data, tree, private_key)
-
     print("✅ Compression and encryption completed. Output saved to 'output_encrypted.bin'")
