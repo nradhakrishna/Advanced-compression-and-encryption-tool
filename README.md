@@ -12,14 +12,7 @@ The goal is to reduce the size of the data before securing it, combining data co
 - Uses Python libraries (pycryptodome) for cryptographic operations.
 - Binary data and encryption keys are safely stored using pickle.
 
-## File Structure
 
-compression_encryption_tool/
-├── compress_encrypt.py       # Compresses and encrypts text
-├── decrypt_decompress.py     # Decrypts and decompresses the encrypted data
-├── huffman_custom.py         # Huffman coding logic
-├── sample_input.txt          # Sample input text file
-└── output_encrypted.bin      # Encrypted binary file (generated)
 
 ## Requirements
 
